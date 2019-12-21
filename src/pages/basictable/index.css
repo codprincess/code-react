@@ -1,0 +1,24 @@
+.blue {
+    background: #1890FF;
+}
+
+.yellow {
+    background: #fff674;
+}
+
+.red {
+    background: #ff5845;
+}
+
+.test {
+    color: red;
+}
+
+/* // var myStyle {
+//     fontSize: 100,
+//         color: '#FF0000'
+// } */
+
+.myStyle {
+    color: red;
+}

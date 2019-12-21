@@ -1,0 +1,99 @@
+.nav-left {
+
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        background-color: rgb(60, 46, 61) !important;
+    }
+
+    .ant-menu-root {
+
+        &.ant-menu-inline,
+        &.ant-menu-vertical {
+            color: #ffffff;
+
+            a {
+                color: #ffffff;
+            }
+
+            .ant-menu-submenu-selected
+                {
+                color: #ffffff;
+            }
+
+            .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+            .ant-menu-submenu-active {
+                color: #ffffff;
+            }
+
+            .ant-menu-submenu-title {
+                .ant-menu-submenu-arrow {
+
+                    &::before,
+                    &::after {
+                        //  background: #ffffff;
+                    }
+                }
+
+                &:hover {
+                    color: #ffffff;
+
+                    .ant-menu-submenu-arrow {
+
+                        &::before,
+                        &::after {
+                            //  background: #ffffff;
+                        }
+                    }
+                }
+            }
+
+            .ant-menu-submenu>.ant-menu {
+                background-color: rgb(60, 46, 61);
+            }
+
+            .ant-menu-item>a:hover {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .ant-menu-inline,
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+        border-right: none !important;
+    }
+
+    .ant-menu-horizontal {
+        >.ant-menu-item-selected {
+            color: #ffffff;
+        }
+    }
+
+
+    // ::-webkit-scrollbar {
+    //     width: 10px;
+    //     background-color: #e1e5ea
+    // }
+
+    .innerbox::-webkit-scrollbar {
+        /*滚动条整体样式*/
+        width: 1px;
+        /*高宽分别对应横竖滚动条的尺寸*/
+        height: 0px;
+    }
+
+    .innerbox::-webkit-scrollbar-thumb {
+        /*滚动条里面小方块*/
+        border-radius: 5px;
+        -webkit-box-shadow: inset 0 0 5px rgb(60, 46, 61);
+        background: rgb(60, 46, 61);
+        ;
+    }
+
+    .innerbox::-webkit-scrollbar-track {
+        /*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 5px rgb(60, 46, 61);
+        border-radius: 0;
+        background: rgb(60, 46, 61);
+    }
+
+}

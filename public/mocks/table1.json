@@ -1,0 +1,50 @@
+{
+    "code": 200,
+    "data": [
+        {
+           
+            "id": "1",
+            "username": "张三",
+            "sex": "女",
+            "status":"3",
+            "interest":"3",
+            "birthday":"2019-12-01",
+            "address":"广西宏禄招商大厦",
+            "time":"12:00"
+          
+        },
+        {
+       
+           "id": "2",
+            "username": "张四",
+            "sex": "女",
+            "status": "2",
+            "interest": "1",
+            "birthday": "2019-12-01",
+            "address": "广西宏禄招商大厦",
+            "time": "12:00"
+        },
+        {
+         
+            "id": "3",
+            "username": "张五",
+            "sex": "女",
+            "status": "1",
+            "interest": "4",
+            "birthday": "2019-12-01",
+            "address": "广西宏禄招商大厦",
+            "time": "12:00"
+        },
+        {
+            
+            "id": "4",
+            "username": "张六",
+            "sex": "女",
+            "status": "2",
+            "interest": "3",
+            "birthday": "2019-12-01",
+            "address": "广西宏禄招商大厦",
+            "time": "12:00"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+.blue {
+    background: #1890FF;
+}
+
+.yellow {
+    background: #fff674;
+}
+
+.red {
+    background: #ff5845;
+}
+
+.test {
+    background: #ff5845;
+    display: block;
+    padding: 16px 16px;
+}
+
+.myblue {
+    background: #1890FF;
+    display: block;
+    padding: 16px 16px;
+}
+
+.myyellow {
+    background: #fff674;
+    display: block;
+    padding: 16px 16px;
+}
+
+.mygreen {
+    background: #e8f5e6;
+    display: block;
+    padding: 16px 16px;
+}
+
+/* // var myStyle {
+//     fontSize: 100,
+//         color: '#FF0000'
+// } */
+
+.myStyle {
+    color: red;
+}
+
+
+.boss .ant-table-tbody>tr>td {
+    padding: 0px 0px;
+    overflow-wrap: break-word;
+}
